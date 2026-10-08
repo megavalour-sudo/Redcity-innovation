@@ -1,0 +1,462 @@
+/* ==============================
+   REDCITY RESPONSIVE DESIGN
+============================== */
+
+/* Large Tablets */
+
+@media(max-width:1200px){
+
+.hero h1{
+font-size:65px;
+}
+
+.hero p{
+font-size:20px;
+}
+
+.service-container{
+gap:25px;
+}
+
+.card{
+width:280px;
+}
+
+}
+
+
+/* Tablets */
+
+@media(max-width:992px){
+
+.navbar{
+
+padding:15px 6%;
+
+}
+
+.hero h1{
+
+font-size:55px;
+
+}
+
+.hero p{
+
+font-size:18px;
+
+}
+
+.logo h2{
+
+font-size:28px;
+
+}
+
+.card{
+
+width:45%;
+
+}
+
+}
+
+
+/* Mobile */
+
+@media(max-width:768px){
+
+.menu-btn{
+
+display:block;
+
+color:white;
+
+}
+
+
+
+
+.navbar{
+display:flex;
+justify-content:space-between;
+align-items:center;
+padding:15px 20px;
+}
+
+.menu-btn{
+display:block;
+font-size:28px;
+cursor:pointer;
+color:white;
+}
+
+.nav-links{
+position:fixed;
+top:75px;
+left:0;
+width:100%;
+background:#111;
+display:none;
+flex-direction:column;
+align-items:center;
+padding:20px 0;
+border-top:2px solid red;
+z-index:999;
+}
+
+.nav-links.active{
+display:flex;
+}
+
+.nav-links li{
+width:100%;
+text-align:center;
+}
+
+.nav-links a{
+display:block;
+padding:15px;
+font-size:18px;
+}
+
+
+
+
+.hero{
+
+ padding:20px;
+
+}
+
+.hero h1{
+
+font-size:42px;
+
+}
+
+.hero p{
+
+font-size:17px;
+
+}
+
+.buttons{
+
+flex-direction:column;
+
+align-items:center;
+
+}
+
+.btn,.btn2{
+
+width:250px;
+
+text-align:center;
+
+}
+
+.card{
+
+width:100%;
+
+}
+
+.services h2{
+
+font-size:40px;
+
+}
+
+footer{
+
+padding:35px;
+
+}
+
+
+.about{
+
+flex-direction:column;
+
+text-align:center;
+
+}
+
+.about-content h2{
+
+font-size:40px;
+
+}
+
+.about-content p{
+
+font-size:16px;
+
+}
+
+.mission-box{
+
+flex-direction:column;
+
+}
+
+.services h2{
+
+font-size:42px;
+
+}
+
+.section-text{
+
+font-size:16px
+
+}
+
+
+.portfolio h2{
+  
+ font-size:42px;
+ }
+
+.portfolio-grid{
+ grid-template-columns:1fr;
+ }
+
+.portfolio-item img{
+height:250px;
+}
+
+
+.testimonials h2,
+.partners h2{
+
+font-size:42px;
+
+}
+
+.partner-logos{
+
+gap:20px;
+
+}
+
+.partner-logos img{
+
+width:100px;
+
+}
+
+
+.contact{
+
+padding:80px 20px;
+
+}
+
+.contact h2{
+
+font-size:40px;
+
+}
+
+.contact-container{
+
+display:grid;
+
+grid-template-columns:1fr;
+
+gap:25px;
+
+}
+
+.contact-info,
+.contact-form{
+
+width:100%;
+
+max-width:100%;
+
+padding:25px;
+
+}
+
+.social-links{
+
+justify-content:center;
+
+flex-wrap:wrap;
+
+}
+
+.info-box{
+
+gap:15px;
+
+}
+
+
+.newsletter{
+
+padding:80px 20px;
+
+}
+
+.newsletter-content{
+
+padding:40px 25px;
+
+}
+
+.newsletter h2{
+
+font-size:40px;
+
+}
+
+.newsletter p{
+
+font-size:16px;
+
+}
+
+.newsletter-form{
+
+flex-direction:column;
+
+}
+
+.newsletter-form input{
+
+min-width:100%;
+
+}
+
+.newsletter-form button{
+
+width:100%;
+
+}
+
+
+footer{
+
+padding:60px 20px 20px;
+
+}
+
+.footer-container{
+
+grid-template-columns:1fr;
+
+gap:35px;
+
+text-align:center;
+
+}
+
+.footer-box img{
+
+margin:auto auto 20px;
+
+display:block;
+
+}
+
+.footer-social{
+
+justify-content:center;
+
+}
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* Small Phones */
+
+@media(max-width:480px){
+
+.logo img{
+
+width:45px;
+
+}
+
+.logo h2{
+
+font-size:24px;
+
+}
+
+.hero h1{
+
+font-size:34px;
+
+letter-spacing:2px;
+
+}
+
+.hero p{
+
+font-size:15px;
+
+}
+
+.btn,.btn2{
+
+width:220px;
+
+padding:14px;
+
+}
+
+.services{
+
+padding:70px 5%;
+
+}
+
+.services h2{
+
+font-size:34px;
+
+}
+
+.card{
+
+padding:25px;
+
+}
+
+.card h3{
+
+font-size:20px;
+
+}
+
+footer h2{
+
+font-size:32px;
+
+}
+
+footer p{
+
+font-size:14px;
+
+}
+
+}
+
